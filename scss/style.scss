@@ -19,3 +19,14 @@ $light-color: #666;
 $light-bg: #eee;
 $border: .2rem solid $black;
 $box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
+html {
+    overflow: hidden;
+    font-size: 62.5%;
+}
