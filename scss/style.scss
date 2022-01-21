@@ -8,7 +8,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -70,6 +70,25 @@ body {
 
         i {
             color: $gold;
+        }
+    }
+
+    .search-form {
+        border-radius: 5rem;
+        height: 5rem;
+        width: 50rem;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        background: $white;
+
+
+        input {
+            width: 100%;
+            padding-right: 1rem;
+            font-size: 1.7rem;
+            text-transform: none;
+            color: $light-color;
         }
     }
 }

@@ -7,7 +7,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   transition: all 0.2s linear;
 }
 
@@ -49,6 +49,22 @@ body {
 }
 .header .logo i {
   color: gold;
+}
+.header .search-form {
+  border-radius: 5rem;
+  height: 5rem;
+  width: 50rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+.header .search-form input {
+  width: 100%;
+  padding-right: 1rem;
+  font-size: 1.7rem;
+  text-transform: none;
+  color: #666;
 }
 
 /*# sourceMappingURL=style.css.map */
