@@ -12,8 +12,31 @@
 }
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
   font-size: 62.5%;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #eee;
+}
+html::-webkit-scrollbar-thumb {
+  background: #0984e3;
+  border-radius: 5rem;
+}
+
+body {
+  background: #eee;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #0984e3;
 }
 
 /*# sourceMappingURL=style.css.map */

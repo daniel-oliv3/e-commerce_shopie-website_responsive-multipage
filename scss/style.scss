@@ -27,6 +27,33 @@ $box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
     font-size: 62.5%;
+
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $light-bg;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $blue;
+        border-radius: 5rem;
+    }
+}
+
+body {
+    background: $light-bg;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: $blue;
 }
