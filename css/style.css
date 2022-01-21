@@ -98,11 +98,61 @@ body {
   width: 30rem;
   background: #fff;
   z-index: 10000;
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+}
+.side-bar #close-side-bar {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #666;
+}
+.side-bar #close-side-bar:hover {
+  transform: rotate(180deg);
 }
 .side-bar .user {
   padding: 2rem;
   background: #eee;
   text-align: center;
+}
+.side-bar .user img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  border: 1rem solid #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5rem;
+}
+.side-bar .user h3 {
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+  color: #666;
+}
+.side-bar .user a {
+  font-size: 1.5rem;
+  color: #0984e3;
+}
+.side-bar .user a:hover {
+  color: #333;
+}
+.side-bar .navbar {
+  padding-top: 1rem;
+}
+.side-bar .navbar a {
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  color: #666;
+}
+.side-bar .navbar a:hover {
+  color: #0984e3;
+}
+.side-bar .navbar a:hover i {
+  padding-right: 2rem;
+}
+.side-bar .navbar a i {
+  padding-right: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

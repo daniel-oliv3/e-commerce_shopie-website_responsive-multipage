@@ -127,10 +127,72 @@ body {
     width: 30rem;
     background: $white;
     z-index: 10000;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, .7);
+
+    #close-side-bar {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 4rem;
+        cursor: pointer;
+        color: $light-color;
+
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
 
     .user {
         padding: 2rem;
         background: $light-bg;
         text-align: center;
+
+
+        img {
+            height: 17rem;
+            width: 17rem;
+            border-radius: 50%;
+            border: 1rem solid $white;
+            box-shadow: $box-shadow;
+            margin-bottom: .5rem;
+        }
+
+        h3 {
+            padding: .5rem 0;
+            font-size: 1.7rem;
+            color: $light-color;
+        }
+
+        a {
+            font-size: 1.5rem;
+            color: $blue;
+
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+
+    .navbar {
+        padding-top: 1rem;
+
+        a {
+            display: block;
+            padding: 1rem 2rem;
+            font-size: 1.7rem;
+            color: $light-color;
+
+            &:hover {
+                color: $blue;
+
+                i {
+                    padding-right: 2rem;
+                }
+            }
+
+            i {
+                padding-right: .5rem;
+            }
+        }
     }
 }
