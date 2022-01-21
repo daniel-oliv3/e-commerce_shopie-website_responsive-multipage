@@ -118,3 +118,19 @@ body {
 #search-btn {
     display: none;
 }
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30rem;
+    background: $white;
+    z-index: 10000;
+
+    .user {
+        padding: 2rem;
+        background: $light-bg;
+        text-align: center;
+    }
+}

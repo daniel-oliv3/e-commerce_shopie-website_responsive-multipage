@@ -90,4 +90,19 @@ body {
   display: none;
 }
 
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30rem;
+  background: #fff;
+  z-index: 10000;
+}
+.side-bar .user {
+  padding: 2rem;
+  background: #eee;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
