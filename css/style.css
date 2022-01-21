@@ -66,5 +66,28 @@ body {
   text-transform: none;
   color: #666;
 }
+.header .search-form label {
+  font-size: 2rem;
+  color: #666;
+  cursor: pointer;
+}
+.header .search-form label:hover {
+  color: #0984e3;
+}
+.header .icons a,
+.header .icons div {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+.header .icons a:hover,
+.header .icons div:hover {
+  color: gold;
+}
+
+#search-btn {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -90,5 +90,31 @@ body {
             text-transform: none;
             color: $light-color;
         }
+
+        label {
+            font-size: 2rem;
+            color: $light-color;
+            cursor: pointer;
+
+            &:hover {
+                color: $blue;
+            }
+        }
     }
+
+    .icons a,
+    .icons div {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        color: $white;
+        cursor: pointer;
+
+        &:hover {
+            color: $gold;
+        }
+    }
+}
+
+#search-btn {
+    display: none;
 }
