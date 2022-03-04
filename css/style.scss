@@ -232,6 +232,82 @@ section{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Responsividade -- */
+@media (max-width: 1200px){
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    #search-btn {
+        display: inline-block;
+    }
+
+    .header {
+        .search-form {
+            position: absolute;
+            top: 99%;
+            left: 0;
+            right: 0;
+            width: 100%;
+            border-radius: 0;
+            box-shadow: $box-shadow;
+            height: 6rem;
+        }
+    }
+
+
+}
+
+@media (max-width: 450px){
+
+    html {
+        font-size: 50%;
+    }
+
+    .header { 
+        justify-content: center;
+
+        .icons a,
+        .icons div {
+            margin: 0 1rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 /*
 Caminho para o gitbash 
 cd C:/Users/Daniel_Oliveira/Documents/GitHub/e-commerce_shopie-website_responsive-multipage-
