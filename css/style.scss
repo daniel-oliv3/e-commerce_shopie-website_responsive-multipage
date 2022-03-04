@@ -50,6 +50,8 @@ body {
     background: $light-bg;
 }
 
+
+/* ======= Header Section/Seção do cabeçalho ======= */
 .header {
     position: sticky;
     top: 0;
@@ -138,7 +140,8 @@ body {
         color: $light-color;
 
         &:hover {
-            transform: rotate(180deg);
+            transform: rotate(90deg);
+            color: $black;
         }
     }
 
@@ -196,3 +199,14 @@ body {
         }
     }
 }
+
+
+/*
+Caminho para o gitbash 
+cd C:/Users/Daniel_Oliveira/Documents/GitHub/e-commerce_shopie-website_responsive-multipage-
+
+SASS
+sass --watch ./css/style.scss:./css/style.css
+
+49m
+*/

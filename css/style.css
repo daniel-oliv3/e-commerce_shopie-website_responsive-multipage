@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -30,6 +31,7 @@ body {
   background: #eee;
 }
 
+/* ======= Header Section/Seção do cabeçalho ======= */
 .header {
   position: sticky;
   top: 0;
@@ -109,7 +111,8 @@ body {
   color: #666;
 }
 .side-bar #close-side-bar:hover {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
+  color: #333;
 }
 .side-bar .user {
   padding: 2rem;
@@ -154,5 +157,15 @@ body {
 .side-bar .navbar a i {
   padding-right: 0.5rem;
 }
+
+/*
+Caminho para o gitbash 
+cd C:/Users/Daniel_Oliveira/Documents/GitHub/e-commerce_shopie-website_responsive-multipage-
+
+SASS
+sass --watch ./css/style.scss:./css/style.css
+
+49m
+*/
 
 /*# sourceMappingURL=style.css.map */
