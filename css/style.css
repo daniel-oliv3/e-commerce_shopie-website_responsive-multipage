@@ -220,6 +220,7 @@ section {
     border-radius: 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     height: 6rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 }
 @media (max-width: 450px) {
@@ -229,6 +230,9 @@ section {
 
   .header {
     justify-content: center;
+  }
+  .header .logo {
+    display: none;
   }
   .header .icons a,
 .header .icons div {

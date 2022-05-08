@@ -278,6 +278,7 @@ section{
             border-radius: 0;
             box-shadow: $box-shadow;
             height: 6rem;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         }
     }
 
@@ -292,6 +293,10 @@ section{
 
     .header { 
         justify-content: center;
+
+        .logo {
+            display: none;
+        }
 
         .icons a,
         .icons div {
