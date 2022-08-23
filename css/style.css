@@ -205,6 +205,32 @@ section {
   .header {
     padding: 2rem;
   }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .quick-links {
+    flex-flow: column;
+    text-align: center;
+  }
+  .quick-links .links {
+    padding: 1rem 0;
+  }
+  .quick-links .links a {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+  .quick-links .share a {
+    margin: 0 1rem;
+  }
+
+  .credit {
+    flex-flow: column;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   #search-btn {
@@ -222,6 +248,28 @@ section {
     height: 6rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+  .header .search-form.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+    display: none;
+  }
+
+  .home .slide {
+    text-align: center;
+  }
+
+  .newsletter {
+    text-align: center;
+  }
+  .newsletter .content h3 {
+    font-size: 4rem;
+  }
+  .newsletter .content p {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 450px) {
   html {
@@ -237,6 +285,28 @@ section {
   .header .icons a,
 .header .icons div {
     margin: 0 1rem;
+  }
+
+  .home .slide .image img {
+    height: auto;
+    width: 100%;
+  }
+
+  .arrivals .box-container .box {
+    flex-flow: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .contact form .inputBox input {
+    width: 100%;
+  }
+
+  .shopping-cart .cart-total {
+    text-align: center;
+  }
+  .shopping-cart .cart-total .btn {
+    width: 100%;
   }
 }
 /*
