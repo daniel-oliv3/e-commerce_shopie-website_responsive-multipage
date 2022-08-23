@@ -1,4 +1,4 @@
-/*Side-bar Section/Seção da barra lateral*/
+/*Side-bar Btn/Botão barra lateral*/
 let sideBar = document.querySelector('.side-bar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -8,3 +8,13 @@ document.querySelector('#menu-btn').onclick = () =>{
 document.querySelector('#close-side-bar').onclick = () =>{
     sideBar.classList.remove('active');
 }
+
+
+/*Search Btn/Botão de pesquisa*/
+let searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+}
+
+
