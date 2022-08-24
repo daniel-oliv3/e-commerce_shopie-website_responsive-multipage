@@ -229,6 +229,25 @@ section {
   color: gold;
 }
 
+.credit {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #fff;
+  justify-content: space-between;
+}
+.credit p {
+  font-size: 2rem;
+  color: #666;
+}
+.credit p span {
+  color: #0984e3;
+}
+.credit img {
+  height: 4rem;
+  filter: drop-shadow(0 0 0.1rem #333);
+}
+
 /* -- Responsividade -- */
 @media (max-width: 1200px) {
   html {
