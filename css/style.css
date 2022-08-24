@@ -196,6 +196,39 @@ section {
   padding-right: 0.5rem;
 }
 
+/* ======= Footer Section/Seção de rodapé ======= */
+.quick-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #333;
+  justify-content: space-between;
+}
+.quick-links .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.quick-links .logo i {
+  color: gold;
+}
+.quick-links .links a {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.quick-links .links a:hover {
+  color: gold;
+}
+.quick-links .share a {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-left: 2rem;
+}
+.quick-links .share a:hover {
+  color: gold;
+}
+
 /* -- Responsividade -- */
 @media (max-width: 1200px) {
   html {
