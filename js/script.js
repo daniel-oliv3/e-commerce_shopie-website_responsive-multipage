@@ -17,4 +17,8 @@ document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
 }
 
+window.onscroll = () => {
+    sideBar.classList.remove('active');
+    searchForm.classList.remove('active');
+}
 
