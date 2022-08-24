@@ -196,6 +196,17 @@ section {
   padding-right: 0.5rem;
 }
 
+/* ======= Home Section/Seção de inicio ======= */
+.home .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.home .slide img {
+  height: 30rem;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .quick-links {
   display: flex;
