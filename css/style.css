@@ -234,6 +234,31 @@ section {
   color: #333;
 }
 
+/* ======= Banner Section/Seção de banner ======= */
+.banner .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+.banner .box-container .box {
+  position: relative;
+  height: 25rem;
+  border: 0.2rem solid #333;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.banner .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner .box-container .box .content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .quick-links {
   display: flex;

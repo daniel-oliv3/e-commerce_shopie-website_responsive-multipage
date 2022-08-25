@@ -281,7 +281,34 @@ section{
 }
 
 
+/* ======= Banner Section/Seção de banner ======= */
+.banner { 
 
+  .box-container {
+    @include grid(31rem);
+
+    .box {
+      position: relative;
+      height: 25rem;
+      border: $border;
+      border-radius: .5rem;
+      overflow: hidden;
+      box-shadow: $box-shadow;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+      }
+    }
+  }
+}
 
 
 
