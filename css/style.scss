@@ -245,6 +245,8 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    min-height: 50rem;
+    padding: 2rem 0;
 
     .image {
       flex: 1 1 42rem;
@@ -272,7 +274,11 @@ section{
   }
 }
 
-
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: $black;
+}
 
 
 

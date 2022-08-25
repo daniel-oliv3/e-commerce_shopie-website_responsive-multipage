@@ -205,6 +205,8 @@ section {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  min-height: 50rem;
+  padding: 2rem 0;
 }
 .home .slide .image {
   flex: 1 1 42rem;
@@ -224,6 +226,12 @@ section {
   padding-top: 0.5rem;
   color: #333;
   font-size: 3rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 3rem;
+  color: #333;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
