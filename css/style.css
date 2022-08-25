@@ -203,8 +203,24 @@ section {
   flex-wrap: wrap;
   gap: 2rem;
 }
-.home .slide img {
+.home .slide .image {
+  flex: 1 1 42rem;
+  text-align: center;
+}
+.home .slide .image img {
   height: 30rem;
+}
+.home .slide .content {
+  flex: 1 1 42rem;
+}
+.home .slide .content span {
+  font-size: 2rem;
+  color: #0984e3;
+}
+.home .slide .content h3 {
+  padding-top: 0.5rem;
+  color: #333;
+  font-size: 3rem;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */

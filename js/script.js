@@ -20,5 +20,21 @@ document.querySelector('#search-btn').onclick = () =>{
 window.onscroll = () => {
     sideBar.classList.remove('active');
     searchForm.classList.remove('active');
-}
+};
+
+/* Home slide */
+var swiper = new Swiper(".home-slide", {
+    loop: true,
+    grabCursor: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        nextEl: ".swiper-button-prev",
+    },
+});
+
+
+
+
+
+
 
