@@ -294,6 +294,25 @@ section {
 .arrivals .box-container .box .image .hover-img {
   display: none;
 }
+.arrivals .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+.arrivals .box-container .box .content .price {
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  color: #0984e3;
+  padding-bottom: 0.7rem;
+}
+.arrivals .box-container .box .content .price span {
+  font-size: 1.5rem;
+  color: #666;
+  text-decoration: line-through;
+}
+.arrivals .box-container .box .content .stars {
+  font-size: 1.5rem;
+  color: gold;
+}
 
 /* ======= Footer Section/Seção de rodapé ======= */
 .quick-links {

@@ -353,6 +353,33 @@ section{
           display: none;
         }
       }
+
+      .content {
+
+        h3 {
+          font-size: 2rem;
+          color: $black;
+        }
+
+        .price {
+          padding: .5rem 0;
+          font-size: 2rem;
+          color: $blue;
+          padding-bottom: .7rem;
+
+
+          span {
+            font-size: 1.5rem;
+            color: $light-color;
+            text-decoration: line-through;
+          }
+        }
+
+        .stars {
+          font-size: 1.5rem;
+          color: $gold;
+        }
+      }
     }
   }
 }
