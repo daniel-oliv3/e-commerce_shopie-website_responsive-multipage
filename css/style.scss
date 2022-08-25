@@ -327,7 +327,35 @@ section{
 }
 
 
+/* ======= Arrivals Section/Seção de Chegadas ======= */
+.arrivals {
 
+  .box-container {
+    @include grid(31rem);
+
+    .box {
+      border-radius: .5rem;
+      border: $border;
+      padding: 2rem;
+      box-shadow: $box-shadow;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      background: $white;
+
+      .image {
+
+        img {
+          height: 15rem;
+        }
+
+        .hover-img {
+          display: none;
+        }
+      }
+    }
+  }
+}
 
 
 

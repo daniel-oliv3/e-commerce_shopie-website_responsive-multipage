@@ -272,6 +272,29 @@ section {
   color: #333;
 }
 
+/* ======= Arrivals Section/Seção de Chegadas ======= */
+.arrivals .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+.arrivals .box-container .box {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #fff;
+}
+.arrivals .box-container .box .image img {
+  height: 15rem;
+}
+.arrivals .box-container .box .image .hover-img {
+  display: none;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .quick-links {
   display: flex;
