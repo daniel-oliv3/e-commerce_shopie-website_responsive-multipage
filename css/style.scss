@@ -295,6 +295,10 @@ section{
       overflow: hidden;
       box-shadow: $box-shadow;
 
+      &:hover img {
+        transform: scale(1.1);
+      }
+
       img {
         height: 100%;
         width: 100%;
@@ -305,6 +309,18 @@ section{
         position: absolute;
         top: 50%;
         left: 5%;
+        transform: translateY(-50%) rotate(45deg);
+
+        span {
+          font-size: 1.7rem;
+          color: $blue;
+        }
+
+        h3 {
+          font-size: 2rem;
+          padding: .5rem 0;
+          color: $black;
+        }
       }
     }
   }
