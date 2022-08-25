@@ -197,6 +197,9 @@ section {
 }
 
 /* ======= Home Section/Seção de inicio ======= */
+.home {
+  background: #fff;
+}
 .home .slide {
   display: flex;
   align-items: center;
